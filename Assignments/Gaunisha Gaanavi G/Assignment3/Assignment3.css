@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+    overflow: hidden;
+}
+.topnav {
+    background-color: #A78CD9;
+    margin-top: 20px;
+    height:160px;
+    margin-left:200px;
+    margin-right:200px;
+}
+div{
+    margin-bottom: 0px;
+    line-height: 0.1em;
+}
+
+.top-text{
+    font-family: "Times New Roman", Times, serif;
+    color:black;
+    margin-top: 0px;
+    margin-left:400px;
+}
+img{
+    margin-right:100px;
+    margin-left:130px;
+    margin-top:30px;
+}
