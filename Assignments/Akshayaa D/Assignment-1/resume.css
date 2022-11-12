@@ -1,0 +1,44 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(4, 35, 63);
+	padding: 20px;
+    color:rgb(185, 182, 182);
+
+}
+.right {
+	position: initial;
+	background-color: rgb(164, 161, 161);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+    text-size-adjust: 20px;;
+    font-size:small;
+    font-family:'Times New Roman', Times, serif
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
